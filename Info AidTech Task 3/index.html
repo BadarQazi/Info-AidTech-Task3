@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter - Info AidTech Task 3</title>
+    <link rel="stylesheet" href="assets/style/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+
+        <hr>
+
+        <div class="input-container">
+            <input type="number" id="inputTemperature" placeholder="Enter temperature">
+            <select id="inputScale">
+                <option value="celsius" selected>Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kalvin">Kelvin</option>
+            </select>
+        </div>
+
+        <div class="output-container">
+            <input type="text" id="outputTemperature" placeholder="Result" readonly>
+            <select id="outputScale">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit" selected>Fahrenheit</option>
+                <option value="kalvin"> Kelvin</option>
+            </select>
+        </div>
+
+        <div class="btn">
+            <button id="convertButton">Convert</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
